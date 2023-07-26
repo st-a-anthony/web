@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Front End Web Developer" content="Comp1ete Website Design" >
+    <meta name="keywords" content="HTML,CSS, Front End" >
+    <meta name="author" content="Arnold Anthony" >
+    <title>Design Page</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="popup.css">
+    <!-- <link rel="icon" href="icon.ico"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <!-- <link rel="stylesheet" href="media.css"> -->
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+        <nav id="navbar">
+            <div id="logo">
+                <img src="logo.jpg" alt="">
+                <input type="text" name="serach" class="search" size="20" placeholder="Search web">
+                <input type="submit" value="search" size="2.5" class="searchbtn">
+            </div>
+            <ul >
+                <a href="index.html" class="a">
+                    <img src="home.jpg" alt="" class="logo" ></a>
+                <li class="menu">
+                    <a href="javascript:void(0)" >Menu</a>
+                    <div class="drop">
+                        <a href="https://unsplash.com/">Unplash</a>
+                        <a href="https://hdqwalls.com/">Hdq Walls</a>
+                    </div>
+                </li>
+                <li ><a href="blog.html" >Blog</a></li>
+                <li class="menu">
+                    <a href="javascript:void(0)" >Media</a>
+                    <div class="drop">
+                        <a href="media.html">Audio</a>
+                        <a href="media.html">video</a>
+                        <a href="media.html">photo</a>
+                        <a href="media.html">Slide</a>
+                    </div>
+                </li>
+                    
+                <li ><a href="login.html">login</a></li>
+                <li ><a href="singup.html">singup</a></li>
+                <li ><a href="contact.html">Contact Us</a></li>
+                <li ><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        
+        <section id="section1">
+            
+            <div class="box1">
+                <h1 class="primary"> Front-End Developer</h1>
+                <p><b>We Build Awesome Websites ...Joins Us Today!</b><p>
+                <h2>Hi There!!!!!</h2>
+                    <iframe src="https://giphy.com/embed/bcKmIWkUMCjVm"  class="giphy" ></iframe>
+
+                
+            </div>
+        </section>
+        <section  id="section2">
+            
+            <div class="box2">
+                <h1 class="primary"> Services</h1>
+                <div class="s1">
+                    <img src="s1.jpg" alt="">
+                    
+                    <p class="p2">
+                        <span class="span1">Template Design <br></span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo vero praesentium voluptatum dolores distinctio ipsum aspernatur placeat ipsa qui animi, sint laudantium ducimus quis nisi fuga soluta molestias iusto. Impedit voluptate recusandae quia voluptatum doloremque eius fugiat amet blanditiis! Illo quidem at ipsa reprehenderit mollitia! Earum iusto recusandae ratione!</p>
+                </div>
+                <div class="s2">
+                    <p><span class="span1">Web Development <br></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex provident nam id officiis itaque sunt modi officia, aperiam ratione ut nihil magnam eum natus animi. Error architecto optio dolorum debitis placeat nulla! Impedit dolor voluptates enim necessitatibus quidem, consectetur veritatis itaque illo. Odit ipsa magni inventore omnis veritatis nisi.</p>
+                    <img src="s2.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- <section  id="section3">
+            
+            <div class="box3">
+                <h1 class="primary"> welcomee To My Page</h1>
+            </div>
+        </section> -->
+
+        <!-- popup contact form -->
+        <div class="popup">
+            <div id="messbox"> 
+                <!-- staeting contact box -->
+                <div id="popcont">
+                    <!-- contact form -->
+                    <form action="#"id="form" method="post" name="form">
+                        <img src="close.gif" alt="" id="close" onclick="closeform()">
+                        <h3>Contact Us</h3>
+                        <hr>
+                        <input type="text" name="name" id="name" placeholder="name">
+                        <input type="email" name="email" id="email" placeholder="email">
+                        <textarea name="message" id="msg"placeholder="message" cols="30" rows="10"></textarea>
+                        <a href="javascript:field()" id="submit">Send message</a>
+                    </form>
+                </div>
+                <!-- This is the end of the contact form -->
+            </div>
+            <div class="cont">
+                <h2>Need Our Service? </h2>
+            </div>
+            <a href="#" class="buttonClass" onclick="showform()">Button text</a>
+            <!-- this is the end of popup message -->
+        </div>
+        
+        <footer class="footer1">
+            <div class="center">
+                copyright &copy;www.frontenddeveloper.com, All rights reserved!
+            </div>
+        </footer>
+   
+</body>
+</html>

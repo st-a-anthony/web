@@ -1,0 +1,209 @@
+/* Blog css */
+
+.primary1 {
+    margin-bottom: -14px;
+    font-size: 3.5rem;
+    text-align: center;
+    z-index: -1;
+    margin-top: 120px;
+}
+.primary2 {
+    margin-bottom: -14px;
+    font-size: 3.5rem;
+    text-align: center;
+    z-index: -1;
+    margin-top: 15px;
+}
+p{
+   
+letter-spacing: 1px;
+}
+
+section::before 
+{
+    content: "";
+    background: url(s3.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 687%;
+    width: 101%;
+    z-index: -1;
+    opacity: 0.89;
+    top: -127px;
+    left: -7px;
+    /* right: -95px;
+   }
+.boox{
+    /* border: 2px solid black; */
+}
+.boox h2{
+    text-align: center;
+    margin-top: 23px;
+    z-index: -1;
+    margin-bottom: 41px;
+}
+/* .container{
+    background-color: green;
+} */
+/* blog content */
+.blogcontent1{
+max-width: 940px;
+margin: auto auto;
+}
+/* Blog main area */
+.mainarea{
+    display: flex;
+    flex-direction: column;
+float: left;
+width: 60%;
+padding-top: 20px;
+box-sizing: border-box;
+padding-right: 40px;
+text-align: center;
+}
+/* blof side bar */
+.side{
+    text-align: center;
+    float:left;
+    padding: 20px 40px;
+    width: 40%;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom,#90ee90,#ffff);
+}
+.side p{
+    margin-top: 35px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* Image abnner an description */
+.imglion{
+position: relative;
+margin: 23px;
+}
+.imglion img{
+    display: block;
+}
+.picoverlay{
+    position: absolute;
+   left: 0;
+    color: #ffff;
+    background-color:rgba(0, 0, 0, 0.63);
+    padding: 0px 5px;
+    bottom: 0;
+}
+.block{
+background-color: lightgrey;
+border-radius: 2px;
+border: 2px solid black;
+padding: 20px 20px;
+margin: 23px;
+}
+/* sun image */
+.sun{
+    background-color: grey;
+    padding: 150px 0px;
+    margin: 23px;
+    background-image: url(sunjpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 475px 348px; */
+    
+     background-size: cover;
+}
+/* Tbale content */
+table{
+    width: 100%;
+    margin-top:20px ;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 2px solid darkgreen;
+    margin-bottom: 23px;
+    
+}
+th,td{
+    border: 2px solid darkgreen;
+    padding: 5px;
+
+}
+.tname{
+    width: 60%;
+}
+.tq,tp{
+
+    width: 20%;
+}
+table th{
+    text-align: left;
+    background-color: darkgreen;
+    color: #fff;
+}
+
+table.mytable tr :nth-child(2),
+ table.mytable tr :nth-child(3){/* it will not allow the column one and two to get effected by the left aline they will stay centerd*/
+
+    text-align: center;
+}
+table td{ /* It will left aline the first coloumn of the table */
+text-align: left;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: lightgrey;
+}
+/* End of the Table Css */
+
+/* NewsLetter */
+.news{
+    margin-top: 23px;
+}
+.news h1{
+    font-size: 2.5rem;
+}
+input[type="email"],input[type="password"],select{
+    width: 100%;
+    height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  outline: none;
+  box-sizing: border-box;
+}
+input[type="email"]:focus,input[type="password"]:focus{
+   border: 2px solid darkgreen;
+   box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.side input[type="submit"]
+{
+    width: 100%;
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.side input[type="submit"]:hover:active
+{
+ 
+    background-color: lightgreen;
+    color: red;
+}
+
+#navbar {
+    margin-left: -2px;
+    display: flex;
+    /* text-align: right; */
+    border: 2px solid rgb(7, 7, 7);
+    /* background-color: black; */
+    height: 85px;
+    background: url(bg1.jpg)no-repeat center center/cover;
+    opacity: 0.89;
+    border-radius: 42px;
+    flex-direction: row;
+    align-items: center;
+    width: 99%;
+    position: fixed;
+    top: 8px;
+    margin-bottom: 50px;
+    z-index: 100000;
+}
+

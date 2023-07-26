@@ -1,0 +1,153 @@
+#navbar {
+    margin-left: -2px;
+    display: flex;
+    /* text-align: right; */
+    border: 2px solid rgb(7, 7, 7);
+    /* background-color: black; */
+    height: 85px;
+    background: url(bg1.jpg)no-repeat center center/cover;
+    opacity: 0.89;
+    border-radius: 42px;
+    flex-direction: row;
+    align-items: center;
+    width: 99%;
+    position: fixed;
+    top: 8px;
+    margin-bottom: 50px;
+    z-index: 100000;
+}
+
+#section1::before {
+    content: "";
+    background: url(pexels-moose-photos-1037992.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 203%;
+    width: 101%;
+    z-index: -1;
+    opacity: 0.89;
+    top: -231px;
+    left: -7px;
+    /* right: -95px; */
+}
+
+footer {
+
+    background-color: black;
+    color: white;
+    width: 104.2%;
+    top: 1148px;
+    left: -31px;
+    position: absolute;
+
+
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 23px;
+    flex-direction: column;
+    margin: 23px 23px;
+}
+
+.map h1 {
+    text-align: center;
+    margin-top: 88px;
+    font-size: 3.5rem;
+
+}
+
+.mapouter{
+    position: relative;
+    text-align: right;
+    height: 502px;
+    width: 937px;
+    
+    margin: auto;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    position: relative;
+    
+    border-radius: 10px;
+    background: none !important;
+    height: 502px;
+    width: 937px;
+}
+#popcont{
+    /* border: 2px solid black; */
+    width: 50%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+
+}
+form{
+    max-width: 300px;
+    min-width: 250px;
+    padding: 10px 50px;
+    border:3px solid grey;
+    border-radius: 10px;
+    background-color: white;
+}
+.popup input[type=text],input[type=email]{
+
+    width: 83%;
+    padding: 10px;
+    margin-top: 30px;
+    background:2px solid grey;
+
+    padding-left: 40px;
+}
+.popup textarea{
+    background-image: url(mess.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: -6px 0px;
+    width: 82%;
+    height: 90px;
+    padding: 10px;
+    margin-top: 22px;
+    resize: none;
+    border: 2px solid grey;
+    padding-left: 40px;
+}
+#name{
+    background-image: url(people.jpg) ;
+    background-size: 33px;
+    background-repeat: no-repeat;
+    /* background-position: 23px 23px; */
+}
+#email{
+    background-image: url(mail.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: -10px;
+}
+#submit{
+
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color:forestgreen;
+    padding: 9px 3px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#submit:hover{
+background-color: greenyellow;
+}#popcont{
+    position: absolute;
+    left: 50%;
+    top: 105%;
+    margin-left: -202px;
+}
+.popup h3{
+    text-align: center;
+    border: 2px solid forestgreen;
+    border-radius: 10px;
+    background-color: forestgreen;
+}

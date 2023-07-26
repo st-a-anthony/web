@@ -1,0 +1,85 @@
+form{
+    max-width: 300px;
+    min-width: 250px;
+    padding: 10px 50px;
+    border:3px solid grey;
+    border-radius: 10px;
+    background-color: white;
+}
+.popup input[type=text],input[type=email]{
+
+    width: 83%;
+    padding: 10px;
+    margin-top: 30px;
+    background:2px solid grey;
+
+    padding-left: 40px;
+}
+#name{
+    background-image: url(people.jpg) ;
+    background-size: 33px;
+    background-repeat: no-repeat;
+    /* background-position: 23px 23px; */
+}
+#email{
+    background-image: url(mail.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: -10px;
+}
+.popup textarea{
+    background-image: url(mess.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: -6px 0px;
+    width: 82%;
+    height: 90px;
+    padding: 10px;
+    margin-top: 22px;
+    resize: none;
+    border: 2px solid grey;
+    padding-left: 40px;
+}
+#submit{
+
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color:forestgreen;
+    padding: 9px 3px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#submit:hover{
+background-color: greenyellow;
+}
+#popcont{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin-left: -202px;
+}
+.popup h3{
+    text-align: center;
+    border: 2px solid forestgreen;
+    border-radius: 10px;
+    background-color: forestgreen;
+}
+#close{
+    position: absolute;
+    right: -14px;
+    cursor: pointer;
+    top: -14px;
+    border-radius: 70px;
+}
+#messbox{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #313131;
+    top:0;
+    left: 0;
+    opacity: 0.96;
+    display: none;
+}

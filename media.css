@@ -1,0 +1,100 @@
+
+#section1::before 
+{
+    content: "";
+    background: url(garden-of-eden-je.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 160%;
+    width: 101%;
+    z-index: -1;
+    opacity: 0.89;
+    top: -231px;
+    left: -7px;
+    /* right: -95px; */
+   }
+   
+#navbar {
+    margin-left: -2px;
+    display: flex;
+    /* text-align: right; */
+    border: 2px solid rgb(7, 7, 7);
+    /* background-color: black; */
+    height: 85px;
+    background: url(anime-couple-on-bicycle-1u.jpg)no-repeat center center/cover;
+    opacity: 0.89;
+    border-radius: 42px;
+    flex-direction: row;
+    align-items: center;
+    width: 99%;
+    position: fixed;
+    top: 11px;
+    margin-bottom: 50px;
+    z-index: 100000;
+}
+.boxx1{
+ 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    height: 548px;
+    /* border: 2px solid black; */
+    flex-wrap: nowrap;
+    
+    justify-content: flex-end;
+}
+footer{
+   
+    background-color: black;
+    color: white;
+    width: 101%;
+    top: 643px;
+    left: -8px;
+    position: absolute;
+
+  
+}
+.mediaheader h1{
+    font-size: 2.5rem;
+}
+.mediaheader h2{
+    font-size: 1.5rem;
+    margin-top: -23px;
+}
+
+.watch video{
+    position: relative;
+    top: 196px;
+    width: 60%;
+
+}
+.g1{
+   
+    left: 61px;
+    top: 511px;
+    position: relative;
+    display: flex;
+    width: 200px;
+    margin-top: -8px;
+    background-color: #ffffff;
+    /* opacity: 0.89; */
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+
+}
+.g2{
+    right: -1279px;
+    top: -192px;
+    position: relative;
+    display: flex;
+    width: 200px;
+    margin-top: -8px;
+    background-color: #ffffff;
+    /* opacity: 0.89; */
+    height: 200px;
+    border-radius: 10px;
+   border: none;
+
+
+}

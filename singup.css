@@ -1,0 +1,110 @@
+
+#navbar {
+    margin-left: -2px;
+    display: flex;
+    /* text-align: right; */
+    border: 2px solid rgb(7, 7, 7);
+    /* background-color: black; */
+    height: 85px;
+    background: url(bg1.jpg)no-repeat center center/cover;
+    opacity: 0.89;
+    border-radius: 42px;
+    flex-direction: row;
+    align-items: center;
+    width: 99%;
+    position: fixed;
+    top: 8px;
+    margin-bottom: 50px;
+    z-index: 100000;
+}
+#section1::before 
+{
+    content: "";
+    background: url(pexels-moose-photos-1037992.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 143%;
+    width: 101%;
+    z-index: -1;
+    opacity: 0.89;
+    top: -231px;
+    left: -7px;
+    /* right: -95px; */
+   }
+   footer{
+   
+    background-color: black;
+    color: white;
+    width: 101%;
+    top: 1024px;
+    left: -8px;
+    position: absolute;
+
+  
+}
+.signup h1{
+    text-align: center;
+    margin-top: 124px;
+    font-size: 3.5rem;
+}.reform h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.reform{
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+    width: 50%;
+}
+.reform h2 a{
+    text-decoration: none;
+    text-align: center;
+}
+.signupbtn input{
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 2x solid black;
+    background:linear-gradient(to right,#ffc0cb,#84dcdc);
+    
+}
+.signupbtn input:hover{
+    cursor: pointer;
+    
+}
+input[type="email"],[type="text"],[type="password"]{
+    box-sizing: border-box;
+    width: 50%;
+    border: none;
+   border-radius: 10px;
+    padding: 12px 20px;
+}
+select{
+    box-sizing: border-box;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+   position: relative;
+   left:8px;
+    padding: 12px 20px;
+}
+input[type="password"]
+{
+position: relative;
+border: none;
+border-radius: 10px;
+left: 8px;
+}
+input[type="date"]{
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    left: 23px;
+    box-sizing: border-box;
+    width: 50%;
+   padding: 12px 20px;
+}

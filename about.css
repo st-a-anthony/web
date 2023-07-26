@@ -1,0 +1,80 @@
+
+#section1::before 
+{
+    content: "";
+    /* background: url(garden-of-eden-je.jpg) no-repeat center center/cover; */
+    position: absolute;
+    height: 123%;
+    width: 101%;
+    z-index: -1;
+    opacity: 0.89;
+    top: -231px;
+    left: -7px;
+    /* right: -95px; */
+   }
+   
+   #navbar {
+    margin-left: -2px;
+    display: flex;
+    /* text-align: right; */
+    border: 2px solid rgb(7, 7, 7);
+    /* background-color: black; */
+    height: 85px;
+    background: url(bg1.jpg)no-repeat center center/cover;
+    opacity: 0.89;
+    border-radius: 42px;
+    flex-direction: row;
+    align-items: center;
+    width: 99%;
+    position: fixed;
+    top: 8px;
+    margin-bottom: 50px;
+    z-index: 100000;
+}
+footer{
+   
+    background-color: black;
+    color: white;
+    width: 101%;
+    top: 1057px;
+    left: -8px;
+    position: absolute;
+
+  
+}
+.container{
+   text-align: center;
+}
+#p{
+    top:-14px;
+    position: relative;
+}
+.aboutme h1{
+    text-align: center;
+    margin-top: 124px;
+    font-size: 3.5rem;
+}
+.container p{
+    text-align: center;
+    margin: 8px 106px;
+    padding: 3px 73px;
+}
+h3{
+    font-size: 2.5rem;
+}
+table{
+    margin: 0 auto;
+}
+ul li{
+   list-style: none;
+}
+.kill
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width:50%;
+    padding: 23px 23px;
+}
+hr{
+    border: 1px dashed black;
+}
